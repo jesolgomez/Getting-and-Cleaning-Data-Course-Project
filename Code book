@@ -1,0 +1,40 @@
+DATA DICTIONARY - UCI HAR Data SubSet AvGrOr
+
+Original Data Set: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Result Data Set: Average values of mean and standard deviation for analyzed variables
+for each subject (30) and each activity (7).
+
+Subject: 1 - 30
+
+Activity: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+
+'AVG -': Average values for the following estimations and variables:
+  Estimations:
+    mean(): Mean value
+    std(): Standard deviation
+      Variables:
+        tBodyAcc
+          X, Y, Z
+        tGravityAcc
+          X, Y, Z
+        tBodyAccJerk
+          X, Y, Z
+        tBodyGyro
+          X, Y, Z
+        tBodyGyroJerk
+          X, Y, Z
+        tBodyAccMag
+        tGravityAccMag
+        tBodyAccJerkMag
+        tBodyGyroMag
+        tBodyGyroJerkMag
+        fBodyAcc
+          X, Y, Z
+        fBodyAccJerk
+          X, Y, Z
+        fBodyGyro
+          X, Y, Z
+        fBodyAccMag
+        fBodyAccJerkMag
+        fBodyGyroMag
+        fBodyGyroJerkMag
