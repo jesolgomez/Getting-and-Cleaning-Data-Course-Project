@@ -31,7 +31,7 @@ DataSet <- rbind(cbind(subjectTest, activTest, XTest), cbind(subjectTrain, activ
 colnames(DataSet) <- c("ID_Subject", "Study", "ID_Activity", "Activity", t(features[2]))
 columnSelec <- 4+which(1*grepl("(-mean\\(\\)|-std\\(\\))", features[,2]) != 0)
 DataSubSet <- DataSet[, c(1:2,4, columnSelec)]
-columnSelecNames <- colnames(DataSubSet[,4:82])
+columnSelecNames <- colnames(DataSubSet[,4:69])
 
 ## Obtain average of each variable for each activity and each subject.
 ## Drop auxiliary columns. Change variables names. Assign names to data set columns.
