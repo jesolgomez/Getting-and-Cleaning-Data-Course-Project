@@ -6,7 +6,7 @@ Result Data Set: Average values of mean and standard deviation for analyzed vari
 
 - Subject: 1 - 30
 - Activity: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
-- Features: 'AVG -': Average values for the following estimations (2) and variables (33):
+- Features: 'AVG -': Average values for the estimations (2) of the following variables (33):
   Estimations:
     mean(): Mean value
     std(): Standard deviation
