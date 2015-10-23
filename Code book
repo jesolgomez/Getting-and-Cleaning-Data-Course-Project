@@ -2,39 +2,29 @@ DATA DICTIONARY - UCI HAR Data SubSet AvGrOr
 
 Original Data Set: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Result Data Set: Average values of mean and standard deviation for analyzed variables
-for each subject (30) and each activity (7).
+  for each subject (30) and each activity (7).
 
-Subject: 1 - 30
-
-Activity: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
-
-'AVG -': Average values for the following estimations and variables:
+- Subject: 1 - 30
+- Activity: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+- Features: 'AVG -': Average values for the following estimations (2) and variables (33):
   Estimations:
     mean(): Mean value
     std(): Standard deviation
       Variables:
-        tBodyAcc
-          X, Y, Z
-        tGravityAcc
-          X, Y, Z
-        tBodyAccJerk
-          X, Y, Z
-        tBodyGyro
-          X, Y, Z
-        tBodyGyroJerk
-          X, Y, Z
-        tBodyAccMag
-        tGravityAccMag
-        tBodyAccJerkMag
-        tBodyGyroMag
-        tBodyGyroJerkMag
-        fBodyAcc
-          X, Y, Z
-        fBodyAccJerk
-          X, Y, Z
-        fBodyGyro
-          X, Y, Z
-        fBodyAccMag
-        fBodyAccJerkMag
-        fBodyGyroMag
-        fBodyGyroJerkMag
+        tBodyAcc: Body Acceleration - Time. X, Y, Z
+        tGravityAcc: gravity acceleration - Time. X, Y, Z
+        tBodyAccJerk: Body Acceleration Jerk - Time. X, Y, Z
+        tBodyGyro: Body Angular Speed - Time. X, Y, Z
+        tBodyGyroJerk: Body Angular Acceleration - Time. X, Y, Z
+        tBodyAccMag: Body Acceleration Magnitude - Time
+        tGravityAccMag: Gravity Acceleration Magnitude - Time
+        tBodyAccJerkMag: Body Acceleration Jerk Magnitude - Time
+        tBodyGyroMag: Body Angular Speed Magnitude - Time
+        tBodyGyroJerkMag: Body Angular Acceleration Magnitude - Time
+        fBodyAcc: Body Acceleration - Frecuency. X, Y, Z
+        fBodyAccJerk: Body Acceleration Jerk - Frecuency. X, Y, Z
+        fBodyGyro: Body Angular Speed - Frecuency. X, Y, Z
+        fBodyAccMag: Body Acceleration Magnitude - Frecuency 
+        fBodyAccJerkMag: Body Acceleration Jerk Magnitude - Frecuency 
+        fBodyGyroMag: Body Angular Speed Magnitude - Frecuency 
+        fBodyGyroJerkMag: Body Angular Acceleration Magnitude - Frecuency
