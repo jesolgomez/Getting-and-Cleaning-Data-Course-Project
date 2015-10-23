@@ -29,7 +29,7 @@ DataSet <- rbind(cbind(subjectTest, activTest, XTest), cbind(subjectTrain, activ
 ## Subset data set by variable names to only extract mean and standard deviation variables
 ## Drop auxiliary columns. Extract variables names.
 colnames(DataSet) <- c("ID_Subject", "Study", "ID_Activity", "Activity", t(features[2]))
-columnSelec <- 4+which(1*grepl("std|mean", features[,2]) != 0)
+columnSelec <- 4+which(1*grepl("(-mean\\(\\)|-std\\(\\))", features[,2]) != 0)
 DataSubSet <- DataSet[, c(1:2,4, columnSelec)]
 columnSelecNames <- colnames(DataSubSet[,4:82])
 
